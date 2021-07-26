@@ -1,0 +1,34 @@
+{
+        "intents": [
+            {"tag": "greeting",
+             "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+             "responses": ["Hi there, I am TheYJChatbot!!How may I help you?","Hello!!"],
+             "context_set": ""
+            },
+            {"tag": "goodbye",
+             "patterns": ["See you later", "Goodbye","bye","Great","Thankyou", "I am Leaving", "Have a Good day"],
+             "responses": ["Hope to see you again!Have a Good day", "Goodbye!","See ya soon!"],
+             "context_set": ""
+            },
+            {"tag": "age",
+             "patterns": ["how old", "how old is yash", "what is your age", "how old are you", "age?"],
+             "responses": ["I am 19 years old!", "19 years young!"],
+             "context_set": ""
+            },
+            {"tag": "name",
+             "patterns": ["what is your name", "what should I call you", "whats your name?"],
+             "responses": ["You can call me TheYJChatbot.", "I'm TheYJChatbot!", "I'm TheYJChatbot created by Yash"],
+             "context_set": ""
+            },
+            {"tag": "menu",
+             "patterns": ["Show me the menu?", "whats on the menu", "I would like to eat something", "could i get something to eat"],
+             "responses": [],
+             "context_set": ""
+            },
+            {"tag": "hours",
+             "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+             "responses": ["We are open 11am-6pm Tuesday to Sunday!"],
+             "context_set": ""
+            }
+        ]
+}

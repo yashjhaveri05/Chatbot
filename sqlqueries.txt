@@ -1,0 +1,20 @@
+CREATE DATABASE
+IF NOT EXISTS `chatbot1`;
+USE `chatbot1`;
+
+CREATE TABLE `items`
+(
+  `id` int NOT NULL AUTO_INCREMENT,
+  `item_name` varchar(150) DEFAULT NULL,
+  `price` int NOT NULL DEFAULT '0',
+  `description` varchar(255) DEFAULT NULL,
+  `tags` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+)
+
+INSERT INTO chatbot1.items
+VALUES
+(1,"Veg Maki", 380, "All Mix Veggie", "Spicy"),
+(2,"Spicy Avocado", 450, "Avocados and Jalapeno", "Spicy"),
+(3,"Asparagus", 480, "Asparagus and Onions", "Tasty"),
+(4,"Cottage Cheese", 500, "Paneer and Avocado", "Healthy");
